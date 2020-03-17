@@ -52,6 +52,7 @@
                         <a href="guardar.php?estado=<?= $mostrar['estado']?>&id=<?= $mostrar['id']?>">Activar</a>
                     <?php  }  ?>
                     <a href="editar.php?id=<?= $mostrar['id']?>">Editar</a>
+                    <a href="eliminar.php?id=<?= $mostrar['id']?>">Eliminar</a>
                 </td>
             </tr>
             <?php } ?>
